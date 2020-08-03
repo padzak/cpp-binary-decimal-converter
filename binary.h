@@ -14,8 +14,8 @@
  *  bits are reserved for the fractional part.
  */
 
-#ifndef EMP_TEST_BINARY_H
-#define EMP_TEST_BINARY_H
+#ifndef DATA_BINARY_H
+#define DATA_BINARY_H
 
 #include <cmath>
 #include <vector>
@@ -88,4 +88,4 @@ namespace Data {
         std::string bin_frac_;                                                                                          // string holding the binary representation of the value's fractional part
     };
 }
-#endif //EMP_TEST_BINARY_H
+#endif //DATA_BINARY_H
